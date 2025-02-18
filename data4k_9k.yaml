@@ -1,0 +1,6 @@
+train: ../Dataset 4K_9k/train4k_9k/images
+val: ../Dataset 4K_9k/valid4k_9k/images
+test: ../Dataset 4K_9k/test4k_9k/images
+
+nc: 1
+names: ['fracture']

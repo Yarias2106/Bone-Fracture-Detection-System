@@ -1,0 +1,13 @@
+train: ../train9k/images
+val: ../valid9k/images
+test: ../test9k/images
+
+nc: 1
+names: ['Bone Fracture Detected']
+
+roboflow:
+  workspace: fracture-detection-mhpoa
+  project: fracture-detection-f3pux
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fracture-detection-mhpoa/fracture-detection-f3pux/dataset/1

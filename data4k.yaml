@@ -1,0 +1,13 @@
+train: ../train4k/images
+val: ../valid4k/images
+test: ../test4k/images
+
+nc: 1
+names: ['fracture detected']
+
+roboflow:
+  workspace: handbruch
+  project: handbruch-detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/handbruch/handbruch-detection/dataset/2
