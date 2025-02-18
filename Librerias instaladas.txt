@@ -1,0 +1,10 @@
+pip install "tensorflow<2.11" 
+(2.10.1)
+pip install numpy==1.23.0
+pip install opencv-python
+pip install ultralytics
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install scikit-learn
+pip install torchvision --index-url https://download.pytorch.org/whl/cu118
+pip install aspose-imaging-python-net 
+
